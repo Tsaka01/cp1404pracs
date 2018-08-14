@@ -1,0 +1,20 @@
+On line 1, a random number between 5 and 20 was shown. The smallest number shown was a 5, and the largest
+number shown was a 19.
+
+On line 2, a random number between 3 and 10 was shown. The smallest number shown was a 3, and the largest
+number shown was a 9. This line could not have produced a 4, because of the {,step] rule that only allowed
+the odd numbers in the range to be shown (3, 5, 7, 9).
+
+On line 3, a random number between 2.5 and 5.5 was shown in decimals. The smallest number shown was a
+2.56..., and the largest number shown was a 5.40...
+
+
+
+Exceptions:
+
+1. A ValueError will occur if anything other than a number is entered (e.g. entering the letter 'a' for
+either the numerator or denominator will trigger this event).
+
+2. A ZeroDivision Error will occur if 0 is entered as the denominator.
+
+3.
