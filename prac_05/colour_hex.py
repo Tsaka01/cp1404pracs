@@ -10,10 +10,11 @@ HEX_COLOURS = {"Beige": "#f5f5dc", "Brown": "#a52a2a", "Cyan":
 
 colour = input("Enter a colour: ")
 while colour != "":
-    print("The code for \"{}\" is {}".format(colour,
-                        HEX_COLOURS.get(colour)))
+    # print("The code for \"{}\" is {}".format(colour,
+    #                     HEX_COLOURS.get(colour)))
+    # colour = input("Enter a colour: ")
+    if colour in HEX_COLOURS:
+        print(colour, "is", HEX_COLOURS[colour])
+    else:
+        print("Sorry, this colour isn't available")
     colour = input("Enter a colour: ")
-    # if colour in HEX_COLOURS:
-    # print(colour, "is", HEX_COLOURS[colour])
-    # else:
-    # print("Sorry, this colour isn't available")
